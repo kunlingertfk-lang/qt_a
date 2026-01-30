@@ -1,0 +1,41 @@
+# Qt
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.qmlproject.user
+*.qmlproject.user.*
+
+# Build directories
+build-*
+*/build-*
+
+# Qt Creator
+*.autosave
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# VS / MSVC
+*.sln
+*.vcxproj*
+*.filters
+*.user
+.ipch/
+
+# Windows
+*.exe
+*.dll
+*.pdb
+
+# Linux / macOS
+*.o
+*.so
+*.dylib
+
+# Temporary
+*.log
+*.tmp
